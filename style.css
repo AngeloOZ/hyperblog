@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    width: 70%;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    margin: auto;
+    background-color: darkblue;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+}
+header > span{
+    margin-right: 20px;
+}
+.contenedor{
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    border: 1px solid;
+    padding: 50px 20px;
+    font-size: 20px;
+}
+.contenedor p {
+    margin-top: 20px;
+}
